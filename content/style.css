@@ -6,3 +6,10 @@ font-family: 'Halant', serif; (reg text)
 body{
   background-color: black;
 }
+h1{
+  font-family: 'Cinzel', serif;
+  color: red;
+}
+p{
+  font-family: 'Halant', serif;
+}
