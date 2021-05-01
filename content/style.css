@@ -2,13 +2,53 @@
 font-family: 'Cinzel', serif; (title text)
 font-family: 'Halant', serif; (reg text)
 */
-
+body, html{
+  height: 100%;
+}
 body{
   background-color: black;
 }
-h1{
+.title-container{
+  margin-top: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+}
+.title{
   font-family: 'Cinzel', serif;
-  color: red;
+  color: #7d2020;
+}
+#pillar-1{
+  float: left;
+  margin-left: 25px;
+}
+#pillar-2{
+  float: right;
+  margin-right: 25px;
+}
+#pillar-1, #pillar-2{
+  height: 100%;
+  width: 150px;
+}
+#flame-1{
+  width: 200px;
+  height: auto;
+  float: left;
+}
+#flame-2{
+  width: 200px;
+  height: auto;
+  float: right;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 p{
   font-family: 'Halant', serif;
