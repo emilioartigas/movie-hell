@@ -23,21 +23,27 @@ body{
   color: #7d2020;
 }
 #pillar-1{
-  float: left;
+  left: 0;
   margin-left: 25px;
 }
 #pillar-2{
-  float: right;
+  right: 0;
   margin-right: 25px;
 }
-#pillar-1, #pillar-2{
+.pillars{
+  background-image: url("red-pillar.png");
   height: 100%;
   width: 150px;
+  background-size: contain;
+  background-size: 100% 100%;
+  position: fixed;
+  background-repeat: no-repeat;
 }
 #flame-1{
   width: 200px;
   height: auto;
   float: left;
+  margin-left: 5px;
 }
 #flame-2{
   width: 200px;
@@ -50,6 +56,12 @@ body{
   bottom: 0;
   width: 100%;
 }
-p{
-  font-family: 'Halant', serif;
+.popcorn-container{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  width: 500px;
+  height: 800px;
+  margin-top: 150px;
 }
