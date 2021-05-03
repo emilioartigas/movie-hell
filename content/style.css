@@ -40,7 +40,7 @@ body{
 .pillars{
   background-image: url("images/red-pillar.png");
   height: 100%;
-  width: 150px;
+  width: 160px;
   background-size: contain;
   background-size: 100% 100%;
   position: fixed;
