@@ -64,7 +64,6 @@ body{
   width: 100px;
   border-radius: 0;
   font-family: 'Cinzel', serif;
-  border: outset #7a1612;
 }
 .button-group{
   margin: 0 auto;
@@ -101,7 +100,7 @@ body{
   scroll-behavior: smooth;
 }
 .circle{
-  height: 600px;
+  height: 500px;
   width: 100%;
   background-color: grey;
   border: solid red 5px;
