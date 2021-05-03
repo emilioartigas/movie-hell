@@ -23,6 +23,12 @@ body{
   color: #7d2020;
   text-align: center;
 }
+#wt{
+  font-size: 25px;
+}
+#mh{
+  font-size: 40px;
+}
 #pillar-1{
   left: 0;
   margin-left: 25px;
@@ -88,7 +94,7 @@ body{
 #circle-container{
   margin: 0 auto;
   position: absolute;
-  width: 45%;
+  width: 50%;
   height: 100%;
   left: 0;
   right: 0;
@@ -102,13 +108,20 @@ body{
 .circle{
   height: 500px;
   width: 100%;
-  background-color: grey;
-  border: solid red 5px;
-  padding-top: 100px;
+  background-color: #171717;
+  border: dotted 3px white;
+  padding-top: 30px;
   margin-top: 150px;
+}
+.title{
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
 }
 .spacer{
   position: absolute;
   height: 200px;
   width: 100%;
+}
+.circle hr{
+  background-color: white;
 }
