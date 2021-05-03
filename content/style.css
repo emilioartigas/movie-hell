@@ -5,6 +5,9 @@ font-family: 'Halant', serif; (reg text)
 body, html{
   height: 100%;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: black;
 }
@@ -56,27 +59,12 @@ body{
   width: 100%;
   z-index: 11;
 }
-/* .nav-label{
-  color: white;
-  margin: 0 auto;
-  position: absolute;
-  width: 300px;
-  left: 0;
-  right: 0;
-  margin-top:430px;
-  text-align: center;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: solid black 2px;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 10px;
-} */
 .btn{
   height: 48px;
   width: 100px;
   border-radius: 0;
   font-family: 'Cinzel', serif;
+  border: outset #7a1612;
 }
 .button-group{
   margin: 0 auto;
@@ -101,20 +89,27 @@ body{
 #circle-container{
   margin: 0 auto;
   position: absolute;
-  width: 70%;
+  width: 45%;
   height: 100%;
   left: 0;
   right: 0;
-  margin-top: 1400px;
+  margin-top: 1000px;
   text-align: center;
   z-index: 1;
   color: white;
+  overflow-y: visible;
   scroll-behavior: smooth;
 }
 .circle{
-  margin-bottom: 100px;
-  height: 500px;
+  height: 600px;
   width: 100%;
   background-color: grey;
   border: solid red 5px;
+  padding-top: 100px;
+  margin-top: 150px;
+}
+.spacer{
+  position: absolute;
+  height: 200px;
+  width: 100%;
 }
