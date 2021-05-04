@@ -106,12 +106,12 @@ body{
   scroll-behavior: smooth;
 }
 .circle{
-  height: 500px;
+  height: 550px;
   width: 100%;
   background-color: #171717;
   border: dotted 3px white;
   padding-top: 30px;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .title{
   font-family: 'Cinzel', serif;
@@ -120,11 +120,21 @@ body{
 .body-text{
   font-family: 'Halant', serif;
   text-align: left;
-  padding: 20px;
+  padding: 10px;
+}
+.image-container{
+  width: 100%;
+  height: 270px;
+  text-align: center;
+}
+.movie-cover{
+  height: 270px;
+  margin:2%;
+  padding:20px;
 }
 .spacer{
   position: absolute;
-  height: 200px;
+  height: 120px;
   width: 100%;
 }
 .circle hr{
