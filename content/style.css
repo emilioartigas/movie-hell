@@ -99,7 +99,8 @@ body{
   width: 50%;
   height: 60%;
   margin-top: 1050px;
-  background-color: white;
+  background-color: #171717;
+  border: dotted 3px white;
   z-index: 9;
 }
 #circle-container{
@@ -115,6 +116,26 @@ body{
   color: white;
   overflow-y: visible;
   scroll-behavior: smooth;
+}
+.inner{
+  width: 50%;
+  height: 100%;
+  display: inline;
+}
+#sec1{
+  background-color: inherit;
+  float: left;
+  border-right: dotted 3px white;
+}
+#sec2{
+  background-color: inherit;
+  float: right;
+}
+.char-title{
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
 }
 .circle{
   height: 550px;
@@ -148,6 +169,6 @@ body{
   height: 120px;
   width: 100%;
 }
-.circle hr{
+hr{
   background-color: white;
 }
