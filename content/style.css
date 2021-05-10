@@ -153,6 +153,7 @@ body{
   font-family: 'Halant', serif;
   text-align: left;
   padding: 10px;
+  color: white;
 }
 .image-container{
   width: 100%;
@@ -171,4 +172,18 @@ body{
 }
 hr{
   background-color: white;
+}
+.crit{
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 600px;
+  width: 60%;
+  background-color: #171717;
+  border: dotted 3px white;
+  padding-top: 30px;
+  margin-top: 120px;
+
+}
+.imgs{
+  height: 220px;
 }
